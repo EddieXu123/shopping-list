@@ -2,5 +2,5 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 module.exports = {
-    mongoURI: process.env.mongoURI
+    mongoURI: 'mongodb+srv://eddie:eddie123@cluster0.x105b.mongodb.net/test'
 } 
