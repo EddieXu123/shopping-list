@@ -22,9 +22,9 @@ Example:
 \
 (In my ./config/key.js file)
 
-module.exports = {
-    mongoURI: 'mongodb+srv://<user>:<password>@cluster10.x420b.mongodb.net/yeet', \
-    jwtSecret: 'secret'
+module.exports = { \
+    &nbsp;&nbsp;&nbsp;&nbsp; mongoURI: 'mongodb+srv://<user>:<password>@cluster10.x420b.mongodb.net/yeet', \
+    &nbsp;&nbsp;&nbsp;&nbsp; jwtSecret: 'secret' \
 } 
 
 ### `npm run dev`
