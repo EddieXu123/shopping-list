@@ -17,6 +17,18 @@ You can probably find a tutorial online but basically do this:
 
 Create a Mongo Atlas account, create a new Cluster and connect to the Cluster (Can be through native drivers). Then, copy the connection string into '/config/keys'.mongoURI object (replacing password with your password). You may also need to create a random string for the jwtSecret key in config.
 
+\
+\
+
+Example:
+\
+(In my ./config/key.js file)
+
+module.exports = {
+    mongoURI: 'mongodb+srv://<user>:<password>@cluster10.x420b.mongodb.net/yeet',
+    jwtSecret: 'secret'
+} 
+
 ### `npm run dev`
 
 Runs the server.js and client-side application concurrently so you don't needa run both in separate terminals
