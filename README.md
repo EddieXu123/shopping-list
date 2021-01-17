@@ -10,6 +10,8 @@ Installs all the Node dependencies and modules
 
 Installs all the client-side dependencies and modules
 
+
+### Quick Pause
 You will also need to connect your own URI because mine is not for grabs D:
 You can probably find a tutorial online but basically do this:
 
