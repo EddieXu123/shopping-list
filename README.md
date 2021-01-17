@@ -23,8 +23,7 @@ Example:
 (In my ./config/key.js file)
 
 module.exports = {
-    mongoURI: 'mongodb+srv://<user>:<password>@cluster10.x420b.mongodb.net/yeet',
-    
+    mongoURI: 'mongodb+srv://<user>:<password>@cluster10.x420b.mongodb.net/yeet', \
     jwtSecret: 'secret'
 } 
 
