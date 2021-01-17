@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import AppNavbar from './components/AppNavbar';
 import ShoppingList from './components/ShoppingList';
 import ItemModal from './components/ItemModal';
+import Footer from './components/Footer';
 
 import store from './store';
 import { Provider } from 'react-redux';
@@ -25,7 +26,13 @@ class App extends Component {
             <ItemModal />
             <ShoppingList />
           </Container>
+
         </div>
+        
+        <div className="foot">
+          <Footer />
+        </div>
+
       </Provider>
     );
   }

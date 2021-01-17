@@ -19,3 +19,10 @@
   opacity: 0.01;
   transition: opacity 1000ms ease-in;
 }
+
+.foot {
+  position:absolute;
+  width:100%;
+  bottom:0;
+  text-align:center;
+}
