@@ -17,7 +17,6 @@ You can probably find a tutorial online but basically do this:
 
 Create a Mongo Atlas account, create a new Cluster and connect to the Cluster (Can be through native drivers). Then, copy the connection string into '/config/keys'.mongoURI object (replacing password with your password). You may also need to create a random string for the jwtSecret key in config.
 
-\
 
 Example:
 \
