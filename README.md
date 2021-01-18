@@ -1,4 +1,4 @@
-A Shopping List built using the MERN stack. This project uses redux, reactstrap, and has JWT authentication to personalize each persons shopping list. I'd love to deploy on Heroku but don't want to pay for extra MongoDB space in case someone spams new users/items >w<
+A Shopping List built using the MERN stack. This project uses redux, reactstrap, and has JWT authentication to personalize each persons shopping list. I'd love to deploy on Heroku but don't want to pay for extra MongoDB space in case someone spams new users/items >w<. Followed Tutorial by Brad Traversy: https://github.com/bradtraversy/mern_shopping_list
 
 In the project directory, you can run:
 
